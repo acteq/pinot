@@ -52,7 +52,7 @@
   &__body {
     // needed to avoid unscrollable overflow
     max-height: 80vh;
-    overflow: scroll;
+    overflow: auto;
   }
 
   &__footer {
@@ -125,7 +125,7 @@
 
   &__input {
     // this is needed to force similar styling
-    padding-left: $te-spacing--sm !important; 
+    padding-left: $te-spacing--sm !important;
   }
 
   &__label-wrapper {
@@ -147,4 +147,8 @@
   &__settings {
     margin: $te-spacing--lg;
   }
+}
+
+.te-modal-micro {
+  width: 560px;
 }

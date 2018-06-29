@@ -5,7 +5,7 @@
     targetAttachment=targetAttachment
     animatable=true}}
 
-    <div class="container">
+    <div class="container {{if isMicroModal "te-modal-micro"}}">
       {{!-- modal header --}}
       {{#if hasHeader}}
         <div class="row te-modal__header">
