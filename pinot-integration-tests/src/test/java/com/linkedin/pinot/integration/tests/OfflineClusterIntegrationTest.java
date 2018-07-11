@@ -76,7 +76,7 @@ public class OfflineClusterIntegrationTest extends BaseClusterIntegrationTestSet
 
   @BeforeClass
   public void setUp() throws Exception {
-    TestUtils.ensureDirectoriesExistAndEmpty(_tempDir, _segmentDir, _tarDir);
+    TestUtils.ensureDirectoriesExistAndEmpty(_tempDir , _segmentDir, _tarDir);
 
     // Start the Pinot cluster
     startZk();
